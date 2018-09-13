@@ -23,3 +23,6 @@ $ az storage container create \
     --account-name avadotftraining0 --account-key '<key from above>' \
     --name state
 ```
+
+Copy one of the `vars` files and insert your storage account key. We'll need to
+source this file into our shell whenever we need to access the state.

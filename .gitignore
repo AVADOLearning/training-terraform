@@ -2,5 +2,8 @@
 /.terraform/
 /terraform.tfstate.*.backup
 
+# Credentials
+/vars/
+
 # Plans
 /plans/*.tfplan
